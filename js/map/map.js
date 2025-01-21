@@ -15,12 +15,12 @@ const addressField = document.querySelector('[name=address]');
 const filterForm = document.querySelector('.map__filters');
 
 const userMarkerIcon = L.icon({
-  iconUrl: '/img/main-pin.svg',
+  iconUrl: '/keksobooking/img/main-pin.svg',
   iconSize: [52, 52],
   iconAnchor: [26, 52],
 });
 const defaultMarkerIcon = L.icon({
-  iconUrl: '/img/pin.svg',
+  iconUrl: '/keksobooking/img/pin.svg',
   iconSize: [40, 40],
   iconAnchor: [20, 40],
 });

@@ -33,8 +33,7 @@ roomsField.addEventListener('change', onRoomsChange);
 timeinField.addEventListener('input', onTimeinChange);
 
 timeoutField.addEventListener('input', onTimeoutChange);
-// eslint-disable-next-line
-console.log(sliderElement);
+
 createPriceSlider(sliderElement);
 
 typeField.addEventListener('change', onTypeChange);
